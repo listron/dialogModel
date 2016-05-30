@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    
+    <color name="loction_city_flag_color">#d2d6dd</color>
+    <color name="index_order_status_color">#bbdf96</color>
+    <color name="white">#FFFFFF</color>
+    <color name="clear">#00000000</color>
+    <color name="black">#000000</color>
+    <color name="blue">#3c6691</color>
+    <color name="base_yellow">#FDBF03</color>
+    <color name="base_gray">#EAEADB</color>
+    <color name="base_list_normal">#00000000</color>
+    <color name="base_list_pressed">#50000000</color>
+    <color name="base_gray_blue">#E6E6E6</color>
+    <color name="base_light_black">#666666</color>
+    <color name="base_line">#C8C8C8</color>
+    <color name="base_title_blue">#1b2a38</color>
+    <color name="search_black_transparent_20">#33000000</color>
+    <color name="search_black_transparent_21">#36000000</color>
+    <color name="order_side_transparent">#26000000</color>
+    <color name="title_color">#f7b73b</color>
+    <color name="base_yellow2">#fbae1a</color>
+    <color name="roll_order_payoffline">#515869</color>
+    <color name="divider_line_dadada">#dadada</color>
+    <color name="divider_line_dbdbdb">#dbdbdb</color>
+    <color name="sz_yellow_fbae1a">#f5c435</color>
+    <!-- 首页 -->
+    <color name="mall_bg">#66000000</color>
+    <color name="index_yellow">#FDBF03</color>
+    <color name="index_gray">#949797</color>
+    <color name="index_title_blue">#334466</color>
+    <color name="index_menu_blue">#304060</color>
+    <color name="index_menu_bottom_blue">#2c3c5d</color>
+    <color name="index_order_bg">#cc3e454d</color>
+    <color name="index_flag_yellow">#b3fdb811</color>
+    <color name="index_977f55">#977f55</color>
+    <!-- 我的 -->
+    <color name="myself_button_up">#0e2234</color>
+    <color name="myself_button_down">#1b2a38</color>
+    <color name="myself_price_yellow">#FA9908</color>
+    <color name="myself_cancel_yellow">#FDB813</color>
+    <color name="myself_blue">#3162c8</color>
+    <color name="myself_gray">#b0bdcd</color>
+    <color name="myself_blue1">#6699cc</color>
+    <color name="myself_line">#3b4c57</color>
+    <color name="myself_card_divider">#C0C0C0</color>
+    <color name="coupon_red">#d84050</color>
+    <color name="coupon_green">#74a63e</color>
+    <color name="coupon_gray">#ded9d2</color>
+    <color name="coup_child_bg">#fafafa</color>
+    <color name="myuser_top">#f4faee</color>
+    <color name="myuser_top_text">#5e714e</color>
+    <color name="myuser_text_black">#3e454d</color>
+    <color name="myuser_button_selector_up">#c9c9c9</color>
+    <color name="myuser_button_selector_down">#dedede</color>
+    <color name="myuser_background_behind">#66000000</color>
+    <color name="myuser_alipay_note">#e8e8e8</color>
+    <color name="myuser_bg">#f9f9f9</color>
+    <color name="myuser_pressed_green_up">#009966</color>
+    <color name="myuser_pressed_green_down">#b4ed77</color>
+    <color name="myuser_text_blue">#182051</color>
+    <color name="myuser_balance_gray">#b5b6c8</color>
+    <color name="myuser_balance_light">#0c1027</color>
+    <color name="myuser_balance_recharge">#009966</color>
+    <color name="myuser_balance_consume">#ff9596</color>
+    <color name="myuser_home_bg">#F7F7F7</color>
+    <color name="myuser_home_selector">#ededed</color>
+    <color name="myuser_home_devider">#dedede</color>
+    <color name="myuser_home_text">#989ab3</color>
+    <color name="myuser_bank_enable">#0e845d</color>
+    <color name="myuser_bank_disable">#ff6600</color>
+    <color name="myuser_bank_enable_new">#0e845d</color>
+    <color name="myuser_bank_disable_new">#999999</color>
+    <color name="myuser_base_gray">#999999</color>
+    <color name="myuser_home_text_new">#666666</color>
+    <color name="myuser_func_status">#ff4444</color>
+    <color name="myuser_title_bg_white">#ffffff</color>
+    <color name="myuser_bg_new">#ededed</color>
+    <color name="myuser_text_black_trans_87">#de000000</color>
+    <color name="myuser_text_black_trans_54">#89000000</color>
+    <color name="myuser_text_black_trans_26">#42000000</color>
+    <color name="myuser_text_black_trans_10">#1a000000</color>
+    <color name="invoice_tips">#fce6c0</color>
+    <color name="myusersystem_line">#fce6c0</color>
+
+    <color name="myuser_cutoff_line">#dbdbdb</color>
+    <color name="myuser_fragment_bg_trans_40">#66000000</color>
+    <color name="myuser_white_list_select_bg">#f9f9f9</color>
+    <color name="myuser_list_select_bg">#bb9a62</color>
+    <color name="myuser_input_bg">#f2f2f2</color>
+    <!-- 文通扫卡 -->
+    <color name="viewfinder_frame">#00ff00</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="viewfinder_mask">#80000000</color>
+    <color name="result_view">#b0000000</color>
+    <color name="transparent">#00000000</color>
+    <!-- 代驾 -->
+    <color name="driving_low_black">#4C4C4C</color>
+    <color name="driving_light_black">#666666</color>
+    <color name="driving_yellow">#F99A09</color>
+    <color name="driving_line_black">#BCBCAF</color>
+    <color name="driving_black">#000000</color>
+    <color name="driving_car_balck">#999999</color>
+    <color name="driving_green">#359812</color>
+    <color name="driving_light_blue">#F2F2F2</color>
+    <!-- 个人信息 -->
+    <color name="myuser_rl_hint">#89000000</color>
+    <color name="myuser_username_hint">#42000000</color>
+    <color name="myuser_username_normal">#42000000</color>
+
+    <!-- 自驾 -->
+    <color name="shortlease_main_nor">#FFFFFFFF</color>
+    <color name="shortlease_main_sel">#EAEADB</color>
+    <color name="shortlease_main_text_color">#4D4D4D</color>
+    <color name="color_gray">#B9B9B9</color>
+    <color name="shortlease_main_content_color">#666666</color>
+    <color name="shortlease_city_order">#b2b2b2</color>
+    <color name="color_price">#ff9905</color>
+    <color name="coupon_price">#ff6600</color>
+    <color name="shortlease_main_text_blue">#339AFE</color>
+    <color name="shortlease_car_title">#333333</color>
+    <color name="shortlease_price_yellow">#FA9B08</color>
+    <color name="calendar_line">#D7D7D7</color>
+    <color name="filter_text">#b3b3b3</color>
+    <!-- 消息中心 -->
+    <color name="push_content_tint">#89000000</color>
+    <!-- 开票记录 -->
+    <color name="billrecord_list_bg">#F3F3F3</color>
+    <color name="billrecord_list_item_desc_color">#89000000</color>
+    <color name="billrecord_list_item_text_color">#d3000000</color>
+
+    <!-- 发票历史 -->
+    <color name="record_content_nomal">#8c000000</color>
+    <color name="record_history_list_select_bg">#f9f9f9</color>
+
+    <!-- dialog 弹层 -->
+    <color name="common_dialog_bg">#999999</color>
+    <!-- category -->
+    <color name="category_text_nomal">#999999</color>
+
+    <!-- 门店 -->
+    <color name="store_location_d">#C6C6B9</color>
+    <color name="store_location_city_d">#CCCCCC</color>
+
+    <!-- 导航 -->
+    <color name="navi_location_col">#72B4F2</color>
+    <color name="navi_location_fill_col">#33037AE9</color>
+    <color name="navi_tab_mark">#13000000</color>
+    <color name="navi_line_color">#2dd22d</color>
+
+    <!-- 接送机 -->
+    <color name="flight_normal_black">#3C454D</color>
+    <color name="flight_light_black">#C1C7D1</color>
+    <color name="flight_fee_light_black">#A3B3C6</color>
+    <color name="flight_time_orange">#FF6600</color>
+    <color name="flight_line">#CCCCCC</color>
+        <color name="flight_line_per03">#4DCCCCCC</color>
+    
+    <color name="flight_title_gray">#F1F1F1</color>
+    <color name="flight_pressed_orange">#FF8331</color>
+    <color name="flight_title_yellow">#FFCE54</color>
+    <color name="flight_list_select">#EEEEEE</color>
+    <color name="flight_transparent">#E0000000</color>
+    <color name="flight_light_gray">#F8F8F8</color>
+    <color name="flight_number_black">#494949</color>
+    <color name="flight_number_none_gray">#BDC8D5</color>
+    <color name="flight_new_black">#545454</color>
+    <color name="flight_prefee_line">#636363</color>
+    <color name="flight_title_deep_gray">#f1f1f1</color>
+    <color name="flight_serach_tx">#626580</color>
+    <color name="flight_new_black_c">#182051</color>
+    <color name="flight_title_orange">#f7b73b</color>
+    <color name="flight_car_light">#989ab3</color>
+    <color name="flight_normal_text1">#3e454d</color>
+
+    <!-- 行程 -->
+    <color name="trip_all_read">#fbae1a</color>
+    <color name="trip_text_name">#3e454d</color>
+    <color name="trip_text_value">#a3b3c6</color>
+    <color name="trip_payment_color">#ff6600</color>
+    <color name="trip_wait_driver_color">#f6135e</color>
+    <color name="trip_cancel_color">#dbdbdb</color>
+    <color name="trip_order_detail_title">#f4faee</color>
+    <color name="trip_payment_line">#bce8f1</color>
+    <color name="trip_bind_card_text">#6fa4c0</color>
+    <color name="trip_bind_card_nor">#d9ecf6</color>
+    <color name="trip_bind_card_sel">#e6f5fd</color>
+    <color name="book_order_text">#4fdb49</color>
+    <color name="book_order_detail_nor_btn">#a3b3c6</color>
+    <color name="book_order_detail_sel_btn">#b8cbe0</color>
+    <color name="book_order_fail_text">#e74c3c</color>
+    <color name="order_cancel_text">#b5b5b5</color>
+    <color name="order_state_color1">#dbdbdb</color>
+    <color name="order_state_color2">#ff6600</color>
+    <color name="order_state_color3">#a0d468</color>
+    <color name="order_state_color4">#50565c</color>
+    <color name="order_state_color5">#f73572</color>
+    <color name="payment_method">#808080</color>
+    <color name="payment_line">#dcdcdc</color>
+    <color name="not_enough_business_consumer_text">#bababa</color>
+    <color name="not_enough_business_consumer_">#e5e5e5</color>
+    <color name="use_coupon_color">#c1c7d1</color>
+    <color name="trip_detail_btn_color">#e1e1e1</color>
+    <color name="trip_detail_btn_frame">#757575</color>
+    <color name="checkout_line">#cccccc</color>
+    <color name="trip_main_red_color">#df3526</color>
+    <color name="trip_main_blue_color">#26a0df</color>
+    <color name="trip_main_white_color">#b8b8b8</color>
+    <color name="trip_main_green_color">#009966</color>
+    <color name="trip_main_text_color">#182051</color>
+    <color name="trip_detail_background">#f9f9f9</color>
+    <color name="trip_detail_text_color">#353a61</color>
+    <color name="trip_detail_car_type">#989ab3</color>
+    <color name="trip_book_success_text">#009966</color>
+    <color name="trip_driver_content">#bfbfbf</color>
+    <color name="checkout_credit_color">#626580</color>
+    <color name="trip_detail_frame_bg">#bdbfd6</color>
+    <color name="trip_appraise_text">#17284e</color>
+    <color name="trip_appraise_scores_text">#525252</color>
+    <color name="trip_appraise_no_text">#182051</color>
+    <color name="trip_appraise_comment_text">#cbcbcb</color>
+    <color name="myuser_add_common_del">#c93124</color>
+    <color name="myuser_address_text">#8b8b8b</color>
+    <color name="protocol_color">#464fb7</color>
+    <!--  会员体系 -->
+    <color name="myuser_infobg">#f7f7f7</color>
+    <color name="myuser_noramlcolor">#69615a</color><!--普卡-->
+    <color name="myuser_silver">#ffffff</color> <!-- 银色-->
+    <color name="myuser_gold">#fffcf6</color> <!-- 金色-->
+    <color name="myuser_whitegold">#858c96</color> <!-- 白金色-->
+
+    <!-- 预约 -->
+    <color name="book_normal_text_color">#f1f1f1</color>
+    <color name="book_tab_selected_text">#494949</color>
+    <color name="book_tab_nor_text">#b9b9b9</color>
+    <color name="color_4e4f57">#4e4f57</color>
+
+    <!-- 弹出框 -->
+    <color name="dialog_text_default">#D3000000</color>
+    <color name="dialog_text_secondry_text_default">#89000000</color>
+
+    <!-- 登录 注册 忘记密码 -->
+    <!-- 输入框提示文字颜色 -->
+    <color name="edittextColorHint">#c1c7d1</color>
+    <!-- 确认按钮默认颜色 -->
+    <color name="commitbuttoncolor">#cfe9b3</color>
+    <!-- 确认按钮颜色可点击时颜色 -->
+    <color name="commitbuttoncolor_clickable">#a0d468</color>
+    <!-- 确认按钮颜色被按下时 -->
+    <color name="commitbuttoncolor_onclick">#b4ed77</color>
+    <!-- 注册  输入框中每行的小标题文字 -->
+    <color name="registertext">#3e454d</color>
+    <!-- 注册 忘记密码 获取验证码按钮颜色 -->
+    <color name="getauthcodebutton">#47b0ed</color>
+    <!-- 注册 忘记密码 获取验证码按钮颜色 -->
+    <color name="getauthcodebutton_onclick">#69c7ff</color>
+    <!-- 登录 账号类别 未选择状态的颜色 -->
+    <color name="logintype_title">#8b9dc2</color>
+    <color name="login_btn_press">#6a2e07</color>
+    <!-- 司机端 顶部分割线颜色 -->
+    <color name="green_line">#d0d9c8</color>
+    <color name="appraise_hint_gray">#d6dae0</color>
+    <color name="wait_result_bule">#182051</color>
+    <color name="wait_result_gray">#989ab3</color>
+    <color name="wait_result_overlay_black">#1b253a</color>
+    <color name="wait_result_overlay_blue">#26a0df</color>
+    <color name="wait_result_overlay_red">#ff2a00</color>
+    <color name="wait_result_overlay_green">#009966</color>
+    <color name="wait_result_driver_c93124">#c93124</color>
+    <color name="coupon_tips_fbf7d5">#fbf7d5</color>
+    <color name="coupon_tips_fff299">#fff299</color>
+    <color name="transparent_30">#50000000</color>
+    <color name="address_sreach_hint">#989ab3</color>
+    <color name="color_999999">#999999</color>
+    <!-- 充值通讯录字体颜色 -->
+    <color name="color_888888">#888888</color>
+    <!-- share 红包 -->
+    <color name="color_343434">#343434</color>
+    <color name="color_ff4444">#ff4444</color>
+    <!-- 虚线 -->
+    <color name="common_color_dotted_line">#d9d9d9</color>
+    <!-- 项目中统一的颜色 -->
+    <!-- 1大标题文字 -->
+    <color name="common_color_one_666666">#666666</color>
+    <color name="common_color_one_999999">#999999</color>
+    <!-- 内容文字（包括：2主要0.87，3次级0.54，4引导0.24 来设置不同的透明度。） -->
+    <color name="common_color_content_000000">#000000</color>
+    <!-- 6页面灰色背景  透明度为0.93 -->
+    <color name="common_color_sex_EDEDED">#EDEDED</color>
+    <!-- 7神州黄 -->
+    <color name="common_color_seven_fbaela">#fbae1a</color>
+    <!-- 8强调红 -->
+    <color name="common_color_eight_ff4444">#ff4444</color>
+   <color name="common_color_eight_ff4444_per87">#DEff4444</color>
+    
+    <!-- 分割线 -->
+    <color name="common_color_nine_dcdcdc">#dcdcdc</color>
+    <!-- 土豪金 -->
+    <color name="common_color_ten_c7a770">#c7a770</color>
+    <color name="common_color_eleven_cb2935c">#b2935c</color>
+    <!-- 6.3 版本 下单色值 -->
+    <color name="price_red_ff4444">#ff4444</color>
+    <color name="commit_orange_fbb700">#fbb700</color>
+    <color name="flight_list_select_f9f9f9">#f9f9f9</color>
+    <color name="item_select_airport_bgf7f7f7">#f7f7f7</color>
+    <!-- 6.3 版本 登录页面色值 -->
+
+    <color name="login_titile">#666666</color>
+    <color name="login_button_disable">#dedede</color>
+    <color name="login_text_hint">#66000000</color>
+    <color name="login_text_gray">#89000000</color> <!-- 3次级0.54 -->
+    <color name="login_text">#dd000000</color>
+    <color name="login_text_yellow">#f5c435</color>
+    <color name="login_text_link">#004986</color>
+    <color name="login_text_select">#f49705</color>
+    <color name="login_divider">#dcdcdc</color>
+    <color name="login_bg">#ededed</color>
+    <color name="user_share_tip">#946640</color>
+    <color name="user_share_text">#e11500</color>
+    <color name="color_c7a770">#c7a770</color>
+
+    <!-- 9成功绿 -->
+    <color name="common_color_nine_009966">#009966</color>
+
+    <!-- 10提示蓝 -->
+    <color name="common_color_ten_4bb7f8">#4bb7f8</color>
+    <color name="color_e5e5e5">#e5e5e5</color>
+    
+    <color name="color_gray_new">#bfbfbf</color>
+    <!--
+    用透明度表示的文字颜色
+   
+    -->
+    <color name="color_666666">#666666</color>
+    <color name="color_87per">#DE000000</color>
+    <color name="color_54per">#89000000</color>
+    <color name="color_26per">#42000000</color>
+    <color name="color_d3d3d3">#d3d3d3</color>
+    <color name="color_c8a974">#c8a974</color>
+
+
+    <color name="color_93transparent_white">#ebffffff</color>
+
+    <color name="recommendLocatiantxt_4bb7f8">#4bb7f8</color>
+
+    <color name="float_price_red">#ff0000</color>
+    <color name="float_price_green">#00B050</color>
+    <color name="float_price_blue">#004986</color>
+    
+    <color name="panel_background">#ffffffff</color>
+
+    <color name="yellow_invitation_button">#cfaf78</color>
+
+    <color name="yellow_mileage">#FEA801</color>
+</resources>

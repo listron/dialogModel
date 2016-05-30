@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_dialog_bg"
+    android:orientation="vertical" >
+
+    <!-- onetitle_onebutton 样式 -->
+
+    <RelativeLayout
+        android:id="@+id/onetitle_onebutton"
+        android:layout_width="@dimen/dd_dimen_490px"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@mipmap/save_dialog_bg"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/onetitle_onebutton_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dd_dimen_40px"
+            android:layout_marginTop="@dimen/dd_dimen_60px"
+            android:gravity="center_horizontal"
+            android:paddingLeft="@dimen/dd_dimen_26px"
+            android:paddingRight="@dimen/dd_dimen_26px"
+            android:textColor="@color/dialog_text_default"
+            android:textSize="@dimen/dd_dimen_28px" />
+
+        <LinearLayout
+            android:layout_width="@dimen/dd_dimen_440px"
+            android:layout_height="@dimen/dd_dimen_110px"
+            android:layout_below="@id/onetitle_onebutton_title"
+            android:layout_centerHorizontal="true"
+            android:paddingBottom="@dimen/dd_dimen_23px" >
+
+            <Button
+                android:id="@+id/onetitle_onebutton_button"
+                android:layout_width="@dimen/dd_dimen_440px"
+                android:layout_height="@dimen/dd_dimen_80px"
+                android:background="@drawable/yellow_button_selector"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dd_dimen_28px" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <!-- onetitle_twobutton 样式 -->
+
+    <RelativeLayout
+        android:id="@+id/onetitle_twobutton"
+        android:layout_width="@dimen/dd_dimen_490px"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@mipmap/save_dialog_bg"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/onetitle_twobutton_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dd_dimen_40px"
+            android:layout_marginTop="@dimen/dd_dimen_60px"
+            android:gravity="center_horizontal"
+            android:paddingLeft="@dimen/dd_dimen_26px"
+            android:paddingRight="@dimen/dd_dimen_26px"
+            android:textColor="@color/dialog_text_default"
+            android:textSize="@dimen/dd_dimen_28px" />
+
+        <LinearLayout
+            android:layout_width="@dimen/dd_dimen_490px"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/onetitle_twobutton_title"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal|center_vertical"
+            android:paddingBottom="@dimen/dd_dimen_23px" >
+
+            <Button
+                android:id="@+id/onetitle_twobutton_leftbutton"
+                android:layout_width="@dimen/dd_dimen_208px"
+                android:layout_height="@dimen/dd_dimen_80px"
+                android:layout_marginRight="@dimen/dd_dimen_25px"
+                android:background="@drawable/white_button_selector"
+                android:gravity="center_vertical|center_horizontal"
+                android:textColor="@color/common_color_one_666666"
+                android:textSize="@dimen/dd_dimen_28px" />
+
+            <Button
+                android:id="@+id/onetitle_twobutton_rightbutton"
+                android:layout_width="@dimen/dd_dimen_208px"
+                android:layout_height="@dimen/dd_dimen_80px"
+                android:background="@drawable/yellow_button_selector"
+                android:gravity="center_vertical|center_horizontal"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dd_dimen_28px" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <!-- onetitle_onedesc_twobutton_style1  样式 -->
+
+    <RelativeLayout
+        android:id="@+id/onetitle_onedesc_twobutton_style1"
+        android:layout_width="@dimen/dd_dimen_490px"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@mipmap/save_dialog_bg"
+        android:visibility="gone"
+        >
+         <TextView
+            android:id="@+id/onetitle_onedesc_twobutton_style1_title"
+            android:layout_width="@dimen/dd_dimen_490px"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingLeft="@dimen/dd_dimen_26px"
+            android:paddingRight="@dimen/dd_dimen_26px"
+            android:paddingTop="@dimen/dd_dimen_40px"
+            android:textColor="@color/dialog_text_default"
+            android:textSize="@dimen/dd_dimen_28px" />
+
+        <TextView
+            android:id="@+id/onetitle_onedesc_twobutton_style1_desc"
+            android:layout_width="@dimen/dd_dimen_490px"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/onetitle_onedesc_twobutton_style1_title"
+            android:gravity="center_horizontal"
+            android:paddingLeft="@dimen/dd_dimen_26px"
+            android:paddingRight="@dimen/dd_dimen_26px"
+            android:paddingTop="@dimen/dd_dimen_22px"
+            android:textColor="@color/dialog_text_default"
+            android:textSize="@dimen/dd_dimen_28px" />
+
+        <LinearLayout
+            android:layout_width="@dimen/dd_dimen_490px"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/onetitle_onedesc_twobutton_style1_desc"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal|center_vertical"
+            android:paddingBottom="@dimen/dd_dimen_23px"
+            android:paddingTop="@dimen/dd_dimen_41px" >
+
+            <Button
+                android:id="@+id/onetitle_onedesc_twobutton_style1_leftbutton"
+                android:layout_width="@dimen/dd_dimen_204px"
+                android:layout_height="@dimen/dd_dimen_80px"
+                android:layout_marginRight="@dimen/dd_dimen_25px"
+                android:background="@drawable/white_button_selector"
+                android:gravity="center_vertical|center_horizontal"
+                android:textColor="@color/common_color_one_666666"
+                android:textSize="@dimen/dd_dimen_28px" />
+
+            <Button
+                android:id="@+id/onetitle_onedesc_twobutton_style1_rightbutton"
+                android:layout_width="@dimen/dd_dimen_204px"
+                android:layout_height="@dimen/dd_dimen_80px"
+                android:background="@drawable/yellow_button_selector"
+                android:gravity="center_vertical|center_horizontal"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dd_dimen_28px" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <!-- onetitle_onedesc_twobutton_style2  样式 -->
+
+    <RelativeLayout
+        android:id="@+id/onetitle_onedesc_twobutton_style2"
+        android:layout_width="@dimen/dd_dimen_490px"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@mipmap/save_dialog_bg"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/onetitle_onedesc_twobutton_style2_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingLeft="@dimen/dd_dimen_26px"
+            android:paddingRight="@dimen/dd_dimen_26px"
+            android:paddingTop="@dimen/dd_dimen_54px"
+            android:textColor="@color/dialog_text_default"
+            android:textSize="@dimen/dd_dimen_28px" />
+
+        <TextView
+            android:id="@+id/onetitle_onedesc_twobutton_style2_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/onetitle_onedesc_twobutton_style2_title"
+            android:layout_marginTop="@dimen/dd_dimen_66px"
+            android:gravity="center_horizontal"
+            android:paddingLeft="@dimen/dd_dimen_26px"
+            android:paddingRight="@dimen/dd_dimen_26px"
+            android:textColor="@color/dialog_text_secondry_text_default"
+            android:textSize="@dimen/dd_dimen_26px" />
+
+        <LinearLayout
+            android:layout_width="@dimen/dd_dimen_490px"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/onetitle_onedesc_twobutton_style2_desc"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal|center_vertical"
+            android:paddingBottom="@dimen/dd_dimen_23px"
+            android:paddingTop="@dimen/dd_dimen_90px" >
+
+            <Button
+                android:id="@+id/onetitle_onedesc_twobutton_style2_leftbutton"
+                android:layout_width="@dimen/dd_dimen_208px"
+                android:layout_height="@dimen/dd_dimen_80px"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginRight="@dimen/dd_dimen_26px"
+                android:background="@drawable/white_button_selector"
+                android:gravity="center_vertical|center_horizontal"
+                android:textColor="@color/common_color_one_666666"
+                android:textSize="@dimen/dd_dimen_28px" />
+
+            <Button
+                android:id="@+id/onetitle_onedesc_twobutton_style2_rightbutton"
+                android:layout_width="@dimen/dd_dimen_208px"
+                android:layout_height="@dimen/dd_dimen_80px"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/yellow_button_selector"
+                android:gravity="center_vertical|center_horizontal"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dd_dimen_28px" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <!-- onetitle_onedesc_twobutton_style3  样式 -->
+    <LinearLayout
+        android:id="@+id/onetitle_onedesc_twobutton_style3"
+        android:layout_width="@dimen/dd_dimen_490px"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/reward_backgroung"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/onetitle_onedesc_twobutton_style3_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/dd_dimen_48px"
+            android:textColor="@color/color_87per"
+            android:textSize="@dimen/dd_dimen_32px" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dd_dimen_1px"
+            android:layout_marginTop="@dimen/dd_dimen_20px"
+            android:background="#F5C435"
+            android:layout_marginLeft="@dimen/dd_dimen_36px"
+            android:layout_marginRight="@dimen/dd_dimen_36px" />
+
+        <TextView
+            android:id="@+id/onetitle_onedesc_twobutton_style3_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dd_dimen_24px"
+            android:layout_marginTop="@dimen/dd_dimen_33px"
+            android:textColor="@color/color_54per"
+            android:textSize="@dimen/dd_dimen_26px" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dd_dimen_100px"
+            android:layout_marginTop="@dimen/dd_dimen_42px">
+
+            <Button
+                android:id="@+id/onetitle_onedesc_twobutton_style3_leftbutton"
+                android:layout_width="@dimen/dd_dimen_208px"
+                android:layout_height="@dimen/dd_dimen_76px"
+                android:layout_marginBottom="@dimen/dd_dimen_24px"
+                android:layout_marginLeft="@dimen/dd_dimen_24px"
+                android:background="@drawable/wait_share_selector"
+                android:textColor="@color/base_light_black"
+                android:textSize="@dimen/dd_dimen_28px" />
+
+            <Button
+                android:id="@+id/onetitle_onedesc_twobutton_style3_rightbutton"
+                android:layout_width="@dimen/dd_dimen_208px"
+                android:layout_height="@dimen/dd_dimen_76px"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="@dimen/dd_dimen_24px"
+                android:layout_marginRight="@dimen/dd_dimen_26px"
+                android:background="@drawable/go_now_selector"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dd_dimen_28px" />
+        </RelativeLayout>
+    </LinearLayout>
+    <!-- onetitle_twodesc_twobutton  样式 -->
+
+    <RelativeLayout
+        android:id="@+id/onetitle_twodesc_twobutton"
+        android:layout_width="@dimen/dd_dimen_490px"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@mipmap/save_dialog_bg"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/onetitle_twodesc_twobutton_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingLeft="@dimen/dd_dimen_26px"
+            android:paddingRight="@dimen/dd_dimen_26px"
+            android:paddingTop="@dimen/dd_dimen_40px"
+            android:textColor="@color/dialog_text_default"
+            android:textSize="@dimen/dd_dimen_28px" />
+
+        <TextView
+            android:id="@+id/onetitle_twodesc_twobutton_desc1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/onetitle_twodesc_twobutton_title"
+            android:gravity="center_horizontal"
+            android:paddingLeft="@dimen/dd_dimen_26px"
+            android:paddingRight="@dimen/dd_dimen_26px"
+            android:paddingTop="@dimen/dd_dimen_22px"
+            android:textColor="@color/dialog_text_default"
+            android:textSize="@dimen/dd_dimen_28px" />
+
+        <TextView
+            android:id="@+id/onetitle_twodesc_twobutton_desc2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/onetitle_twodesc_twobutton_desc1"
+            android:gravity="center_horizontal"
+            android:paddingLeft="@dimen/dd_dimen_26px"
+            android:paddingRight="@dimen/dd_dimen_26px"
+            android:textColor="@color/dialog_text_default"
+            android:textSize="@dimen/dd_dimen_28px" />
+
+        <LinearLayout
+            android:layout_width="@dimen/dd_dimen_440px"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/onetitle_twodesc_twobutton_desc2"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal|center_vertical"
+            android:paddingBottom="@dimen/dd_dimen_23px"
+            android:paddingTop="@dimen/dd_dimen_41px" >
+
+            <Button
+                android:id="@+id/onetitle_twodesc_twobutton_leftbutton"
+                android:layout_width="@dimen/dd_dimen_208px"
+                android:layout_height="@dimen/dd_dimen_80px"
+                android:layout_marginRight="@dimen/dd_dimen_25px"
+                android:background="@drawable/white_button_selector"
+                android:gravity="center_vertical|center_horizontal"
+                android:textColor="@color/common_color_one_666666"
+                android:textSize="@dimen/dd_dimen_28px" />
+
+            <Button
+                android:id="@+id/onetitle_twodesc_twobutton_rightbutton"
+                android:layout_width="@dimen/dd_dimen_208px"
+                android:layout_height="@dimen/dd_dimen_80px"
+                android:background="@drawable/yellow_button_selector"
+                android:gravity="center_vertical|center_horizontal"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dd_dimen_28px" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <!-- onetitle_thirddesc_twobutton -->
+
+    <RelativeLayout
+        android:id="@+id/onetitle_thirddesc_twobutton"
+        android:layout_width="@dimen/dd_dimen_490px"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@mipmap/save_dialog_bg"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/onetitle_thirddesc_twobutton_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingLeft="@dimen/dd_dimen_26px"
+            android:paddingRight="@dimen/dd_dimen_26px"
+            android:paddingTop="@dimen/dd_dimen_54px"
+            android:textColor="@color/dialog_text_default"
+            android:textSize="@dimen/dd_dimen_28px" />
+
+        <WebView
+            android:id="@+id/onetitle_thirddesc_twobutton_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/onetitle_thirddesc_twobutton_title"
+            android:layout_marginTop="@dimen/dd_dimen_29px"
+            android:gravity="center_horizontal"
+            android:textColor="@color/dialog_text_secondry_text_default"
+            android:textSize="@dimen/dd_dimen_26px" />
+
+        <LinearLayout
+            android:layout_width="@dimen/dd_dimen_440px"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/onetitle_thirddesc_twobutton_desc"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal|center_vertical"
+            android:paddingBottom="@dimen/dd_dimen_23px" >
+
+            <Button
+                android:id="@+id/onetitle_thirddesc_twobutton_leftbutton"
+                android:layout_width="@dimen/dd_dimen_208px"
+                android:layout_height="@dimen/dd_dimen_80px"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginRight="@dimen/dd_dimen_26px"
+                android:background="@drawable/white_button_selector"
+                android:gravity="center_vertical|center_horizontal"
+                android:textColor="@color/common_color_one_666666"
+                android:textSize="@dimen/dd_dimen_28px" />
+
+            <Button
+                android:id="@+id/onetitle_thirddesc_twobutton_rightbutton"
+                android:layout_width="@dimen/dd_dimen_208px"
+                android:layout_height="@dimen/dd_dimen_80px"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/yellow_button_selector"
+                android:gravity="center_vertical|center_horizontal"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dd_dimen_28px" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <!-- ONETITLE_ONELOCATIONIMG_TWODESC_TWOBUTTON -->
+
+    <RelativeLayout
+        android:id="@+id/onelocationimg_twodesc_twobutton"
+        android:layout_width="@dimen/dd_dimen_490px"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@mipmap/save_dialog_bg"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/onelocationimg_twodesc_twobutton_localimage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dd_dimen_40px"
+            android:gravity="center_horizontal"
+            android:src="@mipmap/icon"
+            android:textColor="@color/dialog_text_default"
+            android:textSize="@dimen/dd_dimen_28px" />
+
+        <WebView
+            android:id="@+id/onelocationimg_twodesc_twobutton_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/onelocationimg_twodesc_twobutton_localimage"
+            android:layout_marginBottom="@dimen/dd_dimen_28px"
+            android:layout_marginTop="@dimen/dd_dimen_28px"
+            android:gravity="center_horizontal"
+            android:textColor="@color/dialog_text_secondry_text_default"
+            android:textSize="@dimen/dd_dimen_26px" />
+
+        <LinearLayout
+            android:layout_width="@dimen/dd_dimen_440px"
+            android:layout_height="@dimen/dd_dimen_110px"
+            android:layout_below="@id/onelocationimg_twodesc_twobutton_desc"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/dd_dimen_30px" >
+
+            <Button
+                android:id="@+id/onelocationimg_twodesc_twobutton_leftbutton"
+                android:layout_width="@dimen/dd_dimen_208px"
+                android:layout_height="@dimen/dd_dimen_80px"
+                android:layout_marginRight="@dimen/dd_dimen_26px"
+                android:background="@drawable/white_button_selector"
+                android:gravity="center_vertical|center_horizontal"
+                android:textColor="@color/common_color_one_666666"
+                android:textSize="@dimen/dd_dimen_28px" />
+
+            <Button
+                android:id="@+id/onelocationimg_twodesc_twobutton_rightbutton"
+                android:layout_width="@dimen/dd_dimen_208px"
+                android:layout_height="@dimen/dd_dimen_80px"
+                android:background="@drawable/yellow_button_selector"
+                android:gravity="center_vertical|center_horizontal"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dd_dimen_28px" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
